@@ -1,3 +1,15 @@
+2.5.2
+- Features
+  - build native Python package (Ahmad Jagot)
+- Cleanup
+  - remove (unused) 'min_threads' config option (Vitezslav Crhonek)
+
+2.5.1
+- Features
+  - Allow ';' as separator for URI selectors
+    (RFC 1866 section 8.2.1)
+  - Warn if ',' is used as selector separator
+
 2.5.0
 - Features
   - Rewrite selector and property handling to keep
